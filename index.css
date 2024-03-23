@@ -1,0 +1,16 @@
+h1 {
+  text-align: center;
+}
+.header {
+  background-image: url(/images/kintsugi\ bowl.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+.header p {
+  line-height: 2;
+  font-size: 18px;
+  max-width: 20%;
+  padding: 20px;
+  margin: 20px;
+}
