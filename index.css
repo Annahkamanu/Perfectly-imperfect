@@ -1,5 +1,13 @@
-h1 {
-  text-align: center;
+h1,
+h2 {
+  margin: 20px;
+  padding: 20px;
+}
+p {
+  line-height: 2;
+  font-size: 18px;
+  width: 90%;
+  margin: 20px;
 }
 .header {
   background-image: url(/images/kintsugi\ bowl.png);
@@ -13,4 +21,43 @@ h1 {
   max-width: 20%;
   padding: 20px;
   margin: 20px;
+}
+.images {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.images img {
+  margin-left: -100px;
+  width: 100%;
+}
+.arts {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.arts img {
+  width: 1100px;
+  height: 600px;
+  margin-left: 190px;
+}
+.arts h2 {
+  margin-left: 190px;
+}
+.writer {
+  border-radius: 50% !important;
+  width: 400px;
+}
+.decor {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.decor img {
+  width: 1400px;
+  height: 600px;
+  margin-left: 190px;
+}
+.decor h2 {
+  text-align: center;
 }
