@@ -9,14 +9,13 @@ p {
   font-size: 18px;
   width: 90%;
   margin: 20px;
+  text-align: justify;
 }
-.container-fluid {
-  background-color: #3d3d3b;
-  color: white;
-}
+
 .header {
   background-image: url(/images/kintsugi\ bowl.png);
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   color: white;
 }
@@ -26,6 +25,7 @@ p {
   max-width: 20%;
   padding: 20px;
   margin: 20px;
+  text-align: justify;
 }
 .images {
   display: flex;
@@ -62,6 +62,7 @@ p {
   width: 600px;
   height: 600px;
   margin: 2px 5px;
+  margin-bottom: 100px;
 }
 .decor h2 {
   text-align: center;
@@ -70,4 +71,252 @@ p {
 .h1,
 h2 {
   font-family: "Truculenta", sans-serif;
+}
+@media (max-width: 430px) {
+  .header {
+    width: 430px;
+  }
+  .header .h1 {
+    font-size: 28px;
+  }
+  .header p {
+    font-size: 16px;
+    max-width: 100%;
+    margin: 10px;
+  }
+  p {
+    margin-left: 30px;
+    max-width: 85%;
+  }
+  h1,
+  h2 {
+    text-align: center;
+  }
+  .images {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 120px;
+    width: 340px;
+  }
+  .writer {
+    width: 320px;
+    margin: 30px;
+  }
+  .arts img {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+    width: 340px;
+    height: 400px;
+  }
+  .arts h2 {
+    margin-left: 5px;
+  }
+  .decor {
+    flex-direction: column;
+    align-items: center;
+  }
+  .decor img {
+    max-width: calc(90% - 10px);
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 400px;
+  }
+}
+@media (min-width: 431px) and (max-width: 770px) {
+  .header {
+    width: 1040px;
+  }
+  .header p {
+    max-width: 80%;
+  }
+  .paragraph {
+    width: 60%;
+  }
+  p {
+    width: 100%;
+  }
+  h1,
+  h2 {
+    text-align: left;
+    margin: 0;
+  }
+  .images {
+    display: flex;
+    flex-direction: column;
+    margin: 10px -70px;
+    width: 550px;
+    min-height: 1065px !important;
+  }
+  .writer {
+    margin-left: 250px;
+    width: 400px;
+  }
+  .perfect {
+    margin-left: 100px;
+  }
+  .arts img {
+    margin-top: 15px;
+    margin-left: 100px;
+    width: 900px;
+    height: 850px;
+  }
+  .decor img {
+    width: 310px;
+    height: 600px;
+    margin-left: 20px;
+  }
+}
+
+@media (min-width: 771px) and (max-width: 820px) {
+  .header {
+    width: 800px;
+  }
+  .header p {
+    max-width: 80%;
+  }
+  .paragraph {
+    width: 60%;
+  }
+  p {
+    width: 90%;
+  }
+  h1,
+  h2 {
+    text-align: left;
+    margin: 0;
+  }
+  .images {
+    display: flex;
+    flex-direction: column;
+    margin: 10px -100px;
+    width: 370px;
+    min-height: 1065px !important;
+  }
+  .writer {
+    margin-left: 250px;
+    width: 400px;
+  }
+  .perfect {
+    margin-left: 10px;
+    max-width: 95%;
+  }
+  .arts img {
+    margin-top: 15px;
+    margin-left: 50px;
+    width: 700px;
+    height: 650px;
+  }
+  .decor img {
+    width: 220px;
+    height: 500px;
+    margin-left: 20px;
+  }
+}
+
+@media (min-width: 821px) and (max-width: 920px) {
+  .header {
+    width: 850px;
+  }
+  .header p {
+    max-width: 80%;
+  }
+  .paragraph {
+    width: 60%;
+  }
+  p {
+    width: 80%;
+  }
+  h1,
+  h2 {
+    text-align: left;
+    margin: 0;
+  }
+  .images {
+    display: flex;
+    flex-direction: column;
+    margin: 10px -120px;
+    width: 350px;
+    min-height: 980px !important;
+  }
+  .writer {
+    margin-left: 200px;
+    width: 400px;
+  }
+  .perfect {
+    margin-left: 10px;
+    max-width: 95%;
+  }
+  .arts img {
+    margin-top: 15px;
+    margin-left: 50px;
+    width: 700px;
+    height: 650px;
+  }
+  .decor img {
+    width: 220px;
+    height: 500px;
+    margin-left: 20px;
+  }
+}
+@media (min-width: 1020px) and (max-width: 1030px) {
+  .header {
+    width: 1040px;
+  }
+  .header p {
+    max-width: 80%;
+  }
+  .paragraph {
+    width: 60%;
+  }
+  p {
+    width: 100%;
+  }
+  .images {
+    display: flex;
+    flex-direction: column;
+    margin: 10px -100px;
+    width: 340px;
+    min-height: 800px !important;
+  }
+
+  .arts img {
+    margin-top: 150px;
+    margin-left: 100px;
+    width: 600px;
+    height: 850px;
+  }
+  .decor img {
+    width: 310px;
+    height: 300px;
+  }
+}
+@media (min-width: 1031px) and (max-width: 1290px) {
+  .header {
+    width: 1300px;
+  }
+  .header p {
+    max-width: 90%;
+  }
+  .paragraph {
+    width: 60%;
+  }
+  .images {
+    display: flex;
+    flex-direction: column;
+    margin: 10px -100px;
+    width: 450px;
+    min-height: 650px !important;
+  }
+
+  .arts img {
+    margin-top: 150px;
+    margin-left: 100px;
+    width: 800px;
+    height: 650px;
+  }
+  .decor img {
+    width: 400px;
+    height: 500px;
+  }
 }
