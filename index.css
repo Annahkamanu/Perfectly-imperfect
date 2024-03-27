@@ -72,7 +72,60 @@ p {
 h2 {
   font-family: "Truculenta", sans-serif;
 }
-@media (max-width: 430px) {
+
+@media (max-width: 285px) {
+  .header {
+    width: 430px;
+  }
+  .header .h1 {
+    font-size: 28px;
+  }
+  .header p {
+    font-size: 16px;
+    max-width: 100%;
+    margin: 10px;
+  }
+  p {
+    margin-left: 30px;
+    width: 370px;
+  }
+  h1,
+  h2 {
+    text-align: left;
+  }
+  .images {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 120px;
+    width: 400px;
+  }
+  .writer {
+    width: 320px;
+    margin: 60px;
+  }
+  .arts img {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 20px;
+    width: 400px;
+    height: 400px;
+  }
+  .arts h2 {
+    margin-left: 5px;
+  }
+  .decor {
+    flex-direction: column;
+    align-items: center;
+  }
+  .decor img {
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 220px;
+    height: 400px;
+  }
+}
+
+@media (min-width: 286px) and (max-width: 430px) {
   .header {
     width: 430px;
   }
@@ -95,7 +148,7 @@ h2 {
   .images {
     display: flex;
     flex-direction: column;
-    margin: 10px 120px;
+    margin: 40px 120px;
     width: 340px;
   }
   .writer {
@@ -105,7 +158,7 @@ h2 {
   .arts img {
     display: flex;
     flex-direction: column;
-    margin: 10px 20px;
+    margin: 40px 20px;
     width: 340px;
     height: 400px;
   }
@@ -119,11 +172,58 @@ h2 {
   .decor img {
     max-width: calc(90% - 10px);
     margin-top: 20px;
-    margin-left: 10px;
+    margin-left: 40px;
     height: 400px;
   }
 }
-@media (min-width: 431px) and (max-width: 770px) {
+@media (min-width: 431px) and (max-width: 542px) {
+  .header {
+    width: 540px;
+  }
+  .header p {
+    max-width: 80%;
+  }
+  p {
+    margin-left: 30px;
+    max-width: 95%;
+  }
+  h1,
+  h2 {
+    text-align: center;
+  }
+  .images {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 140px;
+    width: 450px;
+  }
+  .writer {
+    width: 320px;
+    margin: 100px;
+  }
+  .arts img {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 40px;
+    width: 450px;
+    height: 400px;
+  }
+  .arts h2 {
+    margin-left: 5px;
+  }
+  .decor {
+    flex-direction: column;
+    align-items: center;
+  }
+  .decor img {
+    max-width: calc(90% - 10px);
+    margin-top: 20px;
+    margin-left: 40px;
+    height: 400px;
+  }
+}
+
+@media (min-width: 543px) and (max-width: 770px) {
   .header {
     width: 1040px;
   }
@@ -146,7 +246,7 @@ h2 {
     flex-direction: column;
     margin: 10px -70px;
     width: 550px;
-    min-height: 1065px !important;
+    min-height: 1120px !important;
   }
   .writer {
     margin-left: 250px;
@@ -157,7 +257,7 @@ h2 {
   }
   .arts img {
     margin-top: 15px;
-    margin-left: 100px;
+    margin-left: 70px;
     width: 900px;
     height: 850px;
   }
@@ -165,6 +265,7 @@ h2 {
     width: 310px;
     height: 600px;
     margin-left: 20px;
+    margin-bottom: 50px;
   }
 }
 
@@ -194,7 +295,7 @@ h2 {
     min-height: 1065px !important;
   }
   .writer {
-    margin-left: 250px;
+    margin-left: 150px;
     width: 400px;
   }
   .perfect {
@@ -237,7 +338,7 @@ h2 {
     flex-direction: column;
     margin: 10px -120px;
     width: 350px;
-    min-height: 980px !important;
+    min-height: 930px !important;
   }
   .writer {
     margin-left: 200px;
@@ -277,14 +378,14 @@ h2 {
     flex-direction: column;
     margin: 10px -100px;
     width: 340px;
-    min-height: 800px !important;
+    min-height: 830px !important;
   }
 
   .arts img {
     margin-top: 150px;
     margin-left: 100px;
     width: 600px;
-    height: 850px;
+    height: 800px;
   }
   .decor img {
     width: 310px;
